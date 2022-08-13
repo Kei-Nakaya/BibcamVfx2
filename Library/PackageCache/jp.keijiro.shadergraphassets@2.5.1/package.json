@@ -1,0 +1,15 @@
+{
+  "author": "Keijiro Takahashi",
+  "dependencies": {
+    "com.unity.shadergraph": "12.1.0",
+    "jp.keijiro.noiseshader": "2.0.0"
+  },
+  "description": "Keijiro's basic asset collection for Shader Graph",
+  "displayName": "Shader Graph Assets",
+  "keywords": [ "unity" ],
+  "license": "Unlicense",
+  "name": "jp.keijiro.shadergraphassets",
+  "unity": "2021.3",
+  "unityRelease": "0f1",
+  "version": "2.5.1"
+}
