@@ -3985,8 +3985,7 @@ MonoBehaviour:
   - {fileID: 1005}
   m_OutputSlots:
   - {fileID: 1006}
-  m_Subgraph: {fileID: 5371698745253816930, guid: bfbffac5b9e601347ae9feb5d51931eb,
-    type: 3}
+  m_Subgraph: {fileID: 5371698745253816930, guid: bfbffac5b9e601347ae9feb5d51931eb, type: 3}
 --- !u!114 &994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6109,8 +6108,7 @@ MonoBehaviour:
   - {fileID: 1597}
   m_OutputSlots:
   - {fileID: 1598}
-  m_Subgraph: {fileID: 5371698745253816930, guid: bfbffac5b9e601347ae9feb5d51931eb,
-    type: 3}
+  m_Subgraph: {fileID: 5371698745253816930, guid: bfbffac5b9e601347ae9feb5d51931eb, type: 3}
 --- !u!114 &1586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11604,8 +11602,7 @@ MonoBehaviour:
   - {fileID: 1773}
   m_OutputSlots:
   - {fileID: 1774}
-  m_Subgraph: {fileID: 5371698745253816930, guid: bfbffac5b9e601347ae9feb5d51931eb,
-    type: 3}
+  m_Subgraph: {fileID: 5371698745253816930, guid: bfbffac5b9e601347ae9feb5d51931eb, type: 3}
 --- !u!114 &1762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12466,8 +12463,7 @@ MonoBehaviour:
   - {fileID: 1799}
   m_OutputSlots:
   - {fileID: 1800}
-  m_Subgraph: {fileID: 5371698745253816930, guid: bfbffac5b9e601347ae9feb5d51931eb,
-    type: 3}
+  m_Subgraph: {fileID: 5371698745253816930, guid: bfbffac5b9e601347ae9feb5d51931eb, type: 3}
 --- !u!114 &1788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17097,8 +17093,7 @@ MonoBehaviour:
   - {fileID: 1948}
   m_OutputSlots:
   - {fileID: 1949}
-  m_Subgraph: {fileID: 5371698745253816930, guid: bfbffac5b9e601347ae9feb5d51931eb,
-    type: 3}
+  m_Subgraph: {fileID: 5371698745253816930, guid: bfbffac5b9e601347ae9feb5d51931eb, type: 3}
 --- !u!114 &1937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18132,8 +18127,7 @@ MonoBehaviour:
   - {fileID: 1979}
   m_OutputSlots:
   - {fileID: 1980}
-  m_Subgraph: {fileID: 5371698745253816930, guid: bfbffac5b9e601347ae9feb5d51931eb,
-    type: 3}
+  m_Subgraph: {fileID: 5371698745253816930, guid: bfbffac5b9e601347ae9feb5d51931eb, type: 3}
 --- !u!114 &1968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20195,6 +20189,7 @@ MonoBehaviour:
   - {fileID: 2145}
   - {fileID: 2148}
   - {fileID: 2146}
+  - {fileID: 2151}
   m_UIPosition: {x: 11771, y: -380}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
@@ -20209,7 +20204,7 @@ MonoBehaviour:
       slotIndex: 0
   m_OutputFlowSlot:
   - link: []
-  blendMode: 1
+  blendMode: 0
   useAlphaClipping: 0
   generateMotionVector: 0
   excludeFromTAA: 0
@@ -20396,8 +20391,8 @@ MonoBehaviour:
   - {fileID: 2147}
   m_OutputSlots: []
   m_Disabled: 0
-  mode: 3
-  ColorComposition: 2
+  mode: 1
+  ColorComposition: 1
   AlphaComposition: 2
 --- !u!114 &2147
 MonoBehaviour:
@@ -20424,7 +20419,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.0,"g":17137.173828125,"b":36176.53515625,"a":1.0},"time":0.0},{"color":{"r":0.0,"g":0.052227847278118137,"b":1.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":0.9577465057373047,"time":0.46419471502304079},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.062094494700431827,"g":3.0219321250915529,"b":4.491501808166504,"a":1.0},"time":0.0},{"color":{"r":0.062094494700431827,"g":3.0219321250915529,"b":4.491501808166504,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
     m_Space: 2147483647
   m_Property:
     name: gradient
@@ -20520,12 +20515,71 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.1
+      m_SerializableObject: 0.25
     m_Space: 2147483647
   m_Property:
     name: B
     m_serializedType:
       m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
+  m_Direction: 0
+  m_LinkedSlots: []
+--- !u!114 &2151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 956b68870e880b144bab17e5aa6e7e94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 2139}
+  m_Children: []
+  m_UIPosition: {x: 3436, y: 65.599976}
+  m_UICollapsed: 0
+  m_UISuperCollapsed: 0
+  m_InputSlots:
+  - {fileID: 2152}
+  m_OutputSlots: []
+  m_Disabled: 0
+  mode: 2
+  ColorComposition: 2
+  AlphaComposition: 1
+--- !u!114 &2152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76f778ff57c4e8145b9681fe3268d8e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 2152}
+  m_MasterData:
+    m_Owner: {fileID: 2151}
+    m_Value:
+      m_Type:
+        m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":0.0},{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":1.0,"time":0.14999619126319886},{"alpha":1.0,"time":0.7000076174736023},{"alpha":0.0,"time":0.994125247001648}],"gradientMode":0}'
+    m_Space: 2147483647
+  m_Property:
+    name: gradient
+    m_serializedType:
+      m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
   m_Direction: 0
   m_LinkedSlots: []
