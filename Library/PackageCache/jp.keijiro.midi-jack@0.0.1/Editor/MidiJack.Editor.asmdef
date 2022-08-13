@@ -1,0 +1,12 @@
+{
+    "name": "MidiJack.Editor",
+    "references": [
+        "MidiJack"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
