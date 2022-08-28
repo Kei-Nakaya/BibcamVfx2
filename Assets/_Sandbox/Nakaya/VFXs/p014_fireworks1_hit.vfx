@@ -18,7 +18,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 906
       y: 1482
-      width: 912
+      width: 947
       height: 1706
     contents:
     - model: {fileID: 8926484042661614585}
@@ -637,7 +637,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614823}
   - {fileID: 8926484042661615007}
   - {fileID: 8926484042661615009}
-  m_UIPosition: {x: 1356, y: 2316}
+  m_UIPosition: {x: 1404, y: 2316}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -703,7 +703,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"2d6479b1a36e4db458f5a5e431c3aa95","type":3}}'
+      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"7b651b29743ca0047a469e31c52e8607","type":3}}'
     m_Space: 2147483647
   m_Property:
     name: mainTexture
@@ -1251,7 +1251,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"00e935a24f4caf344be49cad0c8cc74b","type":3}}'
+      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"b14fae38d40022a4298a0696f791ef29","type":3}}'
     m_Space: 2147483647
   m_Property:
     name: mainTexture
@@ -3954,7 +3954,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"00e935a24f4caf344be49cad0c8cc74b","type":3}}'
+      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"b14fae38d40022a4298a0696f791ef29","type":3}}'
     m_Space: 2147483647
   m_Property:
     name: mainTexture
@@ -7791,7 +7791,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"00e935a24f4caf344be49cad0c8cc74b","type":3}}'
+      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"b14fae38d40022a4298a0696f791ef29","type":3}}'
     m_Space: 2147483647
   m_Property:
     name: mainTexture
