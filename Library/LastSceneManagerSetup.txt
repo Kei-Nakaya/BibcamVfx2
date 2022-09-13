@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/_Sandbox/Kagiyama/Particles2.unity
+- path: Assets/_Sandbox/Nakaya/Scene/CameraTestScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
